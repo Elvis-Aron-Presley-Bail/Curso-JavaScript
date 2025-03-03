@@ -20,3 +20,7 @@ Aula 03: Operadores e Operações no JavaScript
 Aula 04: Arrays, métodos, length e spreed operator
 
 Aula 05: Objetos em JavaScript
+
+Aula 06: Revisão e Desafios em JavaScript
+
+Aula 07: Solução dos 4 desafios em JavaScript
