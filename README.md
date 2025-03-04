@@ -24,3 +24,5 @@ Aula 05: Objetos em JavaScript
 Aula 06: Revisão e Desafios em JavaScript
 
 Aula 07: Solução dos 4 desafios em JavaScript
+
+Aula 08: DOM Manipular HTML com o JavaScript
