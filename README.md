@@ -26,3 +26,7 @@ Aula 06: Revisão e Desafios em JavaScript
 Aula 07: Solução dos 4 desafios em JavaScript
 
 Aula 08: DOM Manipular HTML com o JavaScript
+
+Aula 09: DOM Manipular CSS com JavaScript
+
+Aula 10: Funções em JavaScript [EXTRA] Arrow Function em JS
