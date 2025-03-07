@@ -32,3 +32,5 @@ Aula 09: DOM Manipular CSS com JavaScript
 Aula 10: Funções em JavaScript [EXTRA] Arrow Function em JS
 
 Aula 11: Eventos no JavaScript
+
+Aula 12: Estruturas if else e switch case no JavaScript
