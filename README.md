@@ -38,3 +38,5 @@ Aula 12: Estruturas if else e switch case no JavaScript
 Aula 13: Estruturas for, forEach, while, do while no JavaScript
 
 Aula 14: Aplicações com JavaScript Calculadora de IMC
+
+Aula 15: Aplicações com JavaScript Calculadora de Média com Flash Message
