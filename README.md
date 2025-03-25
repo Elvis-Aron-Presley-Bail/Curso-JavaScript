@@ -44,3 +44,5 @@ Aula 15: Aplicações com JavaScript Calculadora de Média com Flash Message
 Aula 16: Aplicações com JavaScript Dado Virtual D6 como Animação ou Virtual Dice Animate
 
 Aula 17: Aplicações com JavaScript Jogo de Adivinhação de Número Secreto Mentalista
+
+Aula 18: Aplicações com JavaScript Conversor de Moedas + Validações
