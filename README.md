@@ -46,3 +46,5 @@ Aula 16: Aplicações com JavaScript Dado Virtual D6 como Animação ou Virtual 
 Aula 17: Aplicações com JavaScript Jogo de Adivinhação de Número Secreto Mentalista
 
 Aula 18: Aplicações com JavaScript Conversor de Moedas + Validações
+
+Aula 20: Aplicações com JavaScript Quiz, extensível e com placar
