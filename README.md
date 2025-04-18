@@ -48,3 +48,5 @@ Aula 17: Aplicações com JavaScript Jogo de Adivinhação de Número Secreto Me
 Aula 18: Aplicações com JavaScript Conversor de Moedas + Validações
 
 Aula 20: Aplicações com JavaScript Quiz, extensível e com placar
+
+Aula 23: Aplicações com JavaScript Relógio Smart com Hora, Data e Previsão do Tempo
