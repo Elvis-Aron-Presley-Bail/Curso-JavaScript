@@ -29,33 +29,18 @@ let somErro     = document.querySelector('#somErro')
 let somAplausos = document.querySelector('#somAplausos')
 
 // ENDERECO DO ARQUIVO JSON
-const url = 'data.json'
 
 function pegarDados(i) {
+  fetch('data.json')
+  .then (restorno => restorno.json() )
+  .then(data => {
 
-    fetch(url).then(response =>{
-        
-          return response.json();
-  
-        }).then(data => {
-  
-          if(data.erro) {
-            console.log("Erro ao acessar o JSON")
-            return
-          }
-          
-          // passar o quantidade de questoes para a variavel
-          let qtdQuestoes = (data.questoes.length)-1
-          // escrver a qtdQuestoes para total
-          total.textContent = parseInt(qtdQuestoes)
-          
-          // passe o valor de i no parametro
-          atribuirDados(data, i)
-  
-        })
-        
-  } // fim pegarDados
+    let questaoNum = (data.questoes.length)-1
+    total.textContent = questaoNum
 
+    atribuirDados(data, i)
+  })
+}
 
   function atribuirDados(data, i) {
     if(i >= data.questoes.length) {
@@ -77,3 +62,32 @@ function pegarDados(i) {
       //console.log(resposta)
   }
 
+let questaoAtual = 1
+pegarDados(1)
+
+function proximaQuestao(numQuestao){
+  let proxima = parseInt(numQuestao)
+  pegarDados(proxima)
+}
+
+function verificarSeAcertou(nQuestao, resposta) {
+  let questaoEscolhida = resposta.textContent
+  let questaoAtual = nQuestao.value
+
+  pegarDados(questaoAtual)
+
+  let questaoCerta = correct.value
+
+  if(questaoEscolhida == questaoCerta) {
+    pontos += 10
+  } else {
+    console.log('errou')
+  }
+
+  proxima = parseInt(numero.textContent)+1
+
+  setTimeout(() => {
+    proximaQuestao(proxima)
+  }, 50);
+
+}
